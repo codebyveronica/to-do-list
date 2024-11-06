@@ -16,7 +16,7 @@
 
 ## Features to be added: ##
 
-- Database: LocalStorageor SQLite/MongoDB.
+- Database: LocalStorage or SQLite/MongoDB.
 - Edit: to edit existing tasks.
 
 ## Autor: ##
