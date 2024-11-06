@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --color01: #BD2A2E;
+  --color02: #3B3936;
+  --color03: #B2BEBF;
+  --color04: #889C9B;
+  --color05: #486966;
+
+  --font: "Roboto", sans-serif;
+}
+
+* {
+  padding: 0em;
+  margin: 0em;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color03);
+  font-family: var(--font);
+  font-size: 1rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+  padding: 1.5em;
+  border-radius: .7em;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: var(--color02);
+  margin-bottom: .5em;
+}
+
+.create-new-todo {
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 1em;
+  border-radius: 1.5em;
+  border: none;
+  background-color: #b2bebf36;
+  margin-bottom: 2em;
+}
+
+input:focus {
+  outline: none;
+}
+
+.add-task {
+  position: absolute;
+  right: 0;
+
+  background-color: var(--color01);
+  color: white;
+  font-weight: 700;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li.checked {
+  text-decoration: line-through;
+}
+
+.to-do {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  background-color: transparent;
+  color: var(--color05);
+  border: none;
+  padding: .75em;
+  border-radius: 50%;
+}
+
+.buttons button > i {
+  font-size: 1rem;
+  vertical-align: middle;
+  pointer-events: none;
+}
