@@ -1,0 +1,32 @@
+:root {
+  --color01: #BD2A2E;
+  --color02: #3B3936;
+  --color03: #B2BEBF;
+  --color04: #889C9B;
+  --color05: #486966;
+
+  --font: "Roboto", sans-serif;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    min-width: 376px;
+    max-width: 600px;
+  }
+
+  .add-task {
+    transition: .2s;
+  }
+
+  .add-task:hover {
+    background-color: #ff383e;
+  }
+
+  .buttons button {
+    transition: .2s;
+  }
+
+  .buttons button:hover {
+    color: var(--color02);
+  }
+}
